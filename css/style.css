@@ -95,6 +95,7 @@ body {
   text-decoration: none;
   padding: 7px 10px 7px 4px;
   color: #211812;
+  background: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
@@ -122,6 +123,7 @@ body {
 
 .card {
   max-width: 400px;
+  margin-bottom: 40px;
 }
 
 .card-img {
@@ -163,6 +165,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #DD9C3C;
   border-radius: 4px;
+  margin-right: 4px;
 }
 
 .card-text {
@@ -193,3 +196,143 @@ body {
 .card-button-icon {
   margin-right: 4px;
 }
+
+.developer {
+  position: relative;
+  padding: 80px 0 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-about {
+  margin-left: 55px;
+  margin-bottom: 60px;
+}
+
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+}
+
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #DD9C3C;
+  margin: 16px 0;
+}
+
+.developer-sign {
+  position: absolute;
+  left: 30px;
+  top: 120px;
+  max-width: 140px;
+  min-width: 20px;
+  padding-left: 100%;
+  transform: rotate(30deg);
+  opacity: .7;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+}
+
+.form-container {
+  max-width: 460px;
+  margin: auto;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+
+.input-group {
+  position: relative;
+  padding-top: 10px;
+  margin-bottom: 24px;
+}
+
+.feedback-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #211B12;
+}
+
+.input-label {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807C;
+  padding: 0 8px;
+  background: #FFFFFF;
+  top: 0;
+  left: 16px;
+}
+
+.input {
+  border: 3px solid #E0DEDC;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+  padding: 4px 12px;
+  font-size: 24px;
+}
+
+.textarea {
+  min-height: 140px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.submit-button {
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #211812;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  border: none;
+  border-bottom: 2px solid #BF7506;
+  cursor: pointer;
+}
+
+
+
