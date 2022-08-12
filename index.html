@@ -8,6 +8,7 @@
   <title>CV</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 
 <body>
   <div class="navbar container">
-    <a href="#"><img src="./img/logo.svg" alt="Logo"></a>
+    <a href="#"><img src="./img/favpng_bender-it-t-gmbh-sticker-robot.svg" alt="Logo"></a>
     <nav class="navigation">
       <ul class="nav-list">
         <li class="nav-item"><a class="nav-link active" href="#">Main</a></li>
@@ -33,7 +34,7 @@
     <div class="header-text">
       <strong class="header-strong">Hello</strong>
       <h1 class="header-heading"><span class="header-primary">I am a front-end developer</span> <br>
-        My name is Maksym Havrylov and
+        My name is Maksym and
         I make websites for people and
         companies</h1>
       <div class="header-links">
@@ -141,7 +142,8 @@
       <p class="developer-text">I develop sites for people and companies, both partial and with a full cycle. I do
         everything myself.</p>
       <span class="motto">Technical task, Codding, Site content</span>
-      <p class="developer-text ">I can start working on your site right now. I use the following tools: Figma, HTML, CSS, JavaScript and Wordpress</p>
+      <p class="developer-text ">I can start working on your site right now. I use the following tools: Figma, HTML,
+        CSS, JavaScript and Wordpress</p>
       <img src="./img/portfolio/science.jpg" alt="sign" class="developer-sign">
     </div>
     <!-- /.developer-about -->
@@ -163,32 +165,36 @@
     </ul>
   </section>
   <!-- /.skills -->
-  <section class="feedback form-container">
-    <h2 class="feedback-title">Ready to discuss...</h2>
-    <form action="#" class="form">
-      <div class="input-group">
-        <label for="username" class="input-label">Name</label>
-        <input id="username" class="input" type="text">
-      </div>
-      <!-- /.input-group -->
-      <div class="input-group">
-        <label for="email" class="input-label">Email</label>
-        <input id="email" class="input" type="text">
-      </div>
-      <!-- /.input-group -->
-      <div class="input-group">
-        <label for="userMessage" class="input-label">Message</label>
-        <textarea id="userMessage" class="input textarea" cols="49" rows="10"></textarea>
-      </div>
-      <!-- /.input-group -->
-      <div class="button-group">
-        <button type="submit" class="submit-button">
-        <img src="./img/send.svg" alt="send-icon" class="cv-icon">
-        <span class="cv-text">Submit</span>
-      </button>
-      </div>
-      <!-- /.button-group -->
-    </form>
+  <section class="feedback">
+    <img src="./img/bender.png" alt="bender" class="feedback-bender">
+    <img src="./img/pngegg.png" alt="farnsworth" class="feedback-farnsworth">
+    <div class="form-container">
+      <h2 class="feedback-title">Ready to discuss...</h2>
+      <form action="#" class="form">
+        <div class="input-group">
+          <label for="username" class="input-label">Name</label>
+          <input id="username" class="input" type="text">
+        </div>
+        <!-- /.input-group -->
+        <div class="input-group">
+          <label for="email" class="input-label">Email</label>
+          <input id="email" class="input" type="text">
+        </div>
+        <!-- /.input-group -->
+        <div class="input-group">
+          <label for="userMessage" class="input-label">Message</label>
+          <textarea id="userMessage" class="input textarea" cols="49" rows="10"></textarea>
+        </div>
+        <!-- /.input-group -->
+        <div class="button-group">
+          <button type="submit" class="submit-button">
+            <img src="./img/send.svg" alt="send-icon" class="cv-icon">
+            <span class="cv-text">Submit</span>
+          </button>
+        </div>
+        <!-- /.button-group -->
+      </form>
+    </div>
   </section>
   <!-- /.feedback -->
 </body>
